@@ -1,0 +1,27 @@
+<!-- res/layout/nav_header_main.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:background="#688B8F">
+
+    <!-- Your profile picture or icon -->
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageViewProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile" />
+
+    <!-- User name or other information -->
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jeremy Edward Domenico Sanjaya"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/imageViewProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>
